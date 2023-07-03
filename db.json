@@ -8,7 +8,17 @@
     {
       "id": 2,
       "title": "world",
+      "count": 7
+    },
+    {
+      "id": 3,
+      "title": "foo",
       "count": 0
+    },
+    {
+      "id": 4,
+      "title": "bar",
+      "count": 5
     }
   ]
 }
