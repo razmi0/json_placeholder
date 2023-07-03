@@ -19,6 +19,16 @@
       "id": 4,
       "title": "bar",
       "count": 5
+    },
+    {
+      "id": 5,
+      "title": "baz",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "title": "bar",
+      "count": 5
     }
   ]
 }
