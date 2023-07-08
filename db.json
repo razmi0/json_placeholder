@@ -14600,5 +14600,727 @@
         "Speed": 34
       }
     }
+  ],
+  "users": [
+    {
+      "user_id": "user1234",
+      "fullname": "John Doe",
+      "firstname": "John",
+      "lastname": "Doe",
+      "pref_language": "en",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Main St, Anytown, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "low",
+      "role": "user",
+
+      "crypto_balance": {
+        "BTC": 1.523,
+        "ETH": 23.78,
+        "XRP": 345.89,
+        "LTC": 67.22
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0001",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 0.5,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0002",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 100,
+          "currency": "ETH",
+          "recipient_id": "user9876"
+        },
+        {
+          "tx_id": "tx_0003",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 250,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0004",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 10,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_5678",
+        "name": "Insurance",
+        "description": "Smart contract for insurance services",
+        "status": "Active",
+        "created_date": "2023-06-15 14:20:00",
+        "balance": {
+          "ETH": 5.0,
+          "XRP": 100.0
+        }
+      }
+    },
+    {
+      "user_id": "user5678",
+      "fullname": "Jane Smith",
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "pref_language": "en",
+      "email": "jane.smith@example.com",
+      "phone": "+1 (555) 987-6543",
+      "address": "456 Oak St, Anothercity, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "medium",
+      "role": "user",
+      "crypto_balance": {
+        "BTC": 0.832,
+        "ETH": 45.19,
+        "XRP": 176.45,
+        "LTC": 20.11
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0005",
+          "date": "2023-07-01 14:30:00",
+          "type": "Sent",
+          "amount": 0.3,
+          "currency": "BTC",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0006",
+          "date": "2023-07-02 09:15:00",
+          "type": "Received",
+          "amount": 50,
+          "currency": "ETH",
+          "sender_id": "user9876"
+        },
+        {
+          "tx_id": "tx_0007",
+          "date": "2023-07-03 18:45:00",
+          "type": "Sent",
+          "amount": 75,
+          "currency": "XRP",
+          "recipient_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0008",
+          "date": "2023-07-04 12:00:00",
+          "type": "Received",
+          "amount": 5,
+          "currency": "LTC",
+          "sender_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user9876",
+      "fullname": "Bob Johnson",
+      "firstname": "Bob",
+      "lastname": "Johnson",
+      "pref_language": "en",
+      "email": "bob.johnson@example.com",
+      "phone": "+1 (555) 444-3333",
+      "address": "789 Elm St, Yetanothercity, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "admin",
+      "crypto_balance": {
+        "BTC": 4.21,
+        "ETH": 78.67,
+        "XRP": 564.29,
+        "LTC": 112.75
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0009",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0010",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0011",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0012",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user3456",
+      "fullname": "Alice Williams",
+      "firstname": "Alice",
+      "lastname": "Williams",
+      "pref_language": "en",
+
+      "email": "alice.william@what.com",
+      "phone": "+1 (555) 222-1111",
+      "address": "123 Main St, Somewhere, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "compagny",
+      "crypto_balance": {
+        "BTC": 0.0,
+        "ETH": 0.0,
+        "XRP": 0.0,
+        "LTC": 0.0
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0013",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0014",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0015",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0016",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user2345",
+      "fullname": "Eve Brown",
+      "firstname": "Eve",
+      "lastname": "Brown",
+      "pref_language": "en",
+      "email": "eve_brown@hotmail.fr",
+      "phone": "+1 (555) 222-1111",
+      "address": "123 Main St, Somewhere, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "user",
+      "crypto_balance": {
+        "BTC": 0.0,
+        "ETH": 0.0,
+        "XRP": 0.0,
+        "LTC": 0.0
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0017",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0018",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0019",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0020",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user6789",
+      "fullname": "Bob Smith",
+      "firstname": "Bob",
+      "lastname": "Smith",
+      "pref_language": "en",
+      "email": "bobyzob@gjdkd.com",
+      "phone": "+1 (555) 222-1111",
+      "address": "123 Main St, Somewhere, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "user",
+      "crypto_balance": {
+        "BTC": 0.0,
+        "ETH": 0.0,
+        "XRP": 0.0,
+        "LTC": 0.0
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0021",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0022",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0023",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0024",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user3456",
+      "fullname": "Alice Jones",
+      "firstname": "Alice",
+      "lastname": "Jones",
+      "pref_language": "en",
+      "email": "klgfdjgdf.ksfg@sjdnf.com",
+      "phone": "+1 (555) 222-1111",
+      "address": "123 Main St, Somewhere, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "user",
+      "crypto_balance": {
+        "BTC": 0.0,
+        "ETH": 0.0,
+        "XRP": 0.0,
+        "LTC": 0.0
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0025",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0026",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0027",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0028",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    },
+    {
+      "user_id": "user2345",
+      "fullname": "Bob Smith",
+      "firstname": "Bob",
+      "lastname": "Smith",
+      "pref_language": "en",
+      "email": "user4543@kfjgfk.com",
+      "phone": "+1 (555) 222-1111",
+      "address": "123 Main St, Somewhere, USA",
+      "last_login": "2023-07-04 12:00:00",
+      "security_level": "high",
+      "role": "compagny",
+      "crypto_balance": {
+        "BTC": 0.0,
+        "ETH": 0.0,
+        "XRP": 0.0,
+        "LTC": 0.0
+      },
+      "transactions": [
+        {
+          "tx_id": "tx_0029",
+          "date": "2023-07-01 14:30:00",
+          "type": "Received",
+          "amount": 1,
+          "currency": "BTC",
+          "sender_id": "user5678"
+        },
+        {
+          "tx_id": "tx_0030",
+          "date": "2023-07-02 09:15:00",
+          "type": "Sent",
+          "amount": 25,
+          "currency": "ETH",
+          "recipient_id": "user1234"
+        },
+        {
+          "tx_id": "tx_0031",
+          "date": "2023-07-03 18:45:00",
+          "type": "Received",
+          "amount": 150,
+          "currency": "XRP",
+          "sender_id": "user3456"
+        },
+        {
+          "tx_id": "tx_0032",
+          "date": "2023-07-04 12:00:00",
+          "type": "Sent",
+          "amount": 20,
+          "currency": "LTC",
+          "recipient_id": "user2345"
+        }
+      ],
+      "smart_contract": {
+        "contract_id": "contract_1234",
+        "name": "Escrow",
+        "description": "Smart contract for secure escrow services",
+        "status": "Active",
+        "created_date": "2023-06-20 10:30:00",
+        "balance": {
+          "ETH": 2.55,
+          "ADA": 50.0
+        }
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "job_1234",
+      "title": "Senior Software Engineer",
+      "description": "Develop new features for our platform",
+      "company": "Company ABC",
+      "location": "San Francisco, CA",
+      "salary": "1",
+      "currency": "BTC",
+      "date_posted": "2023-06-20 10:30:00",
+      "date_closed": "2023-07-20 10:30:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user1234",
+          "firstname": "John",
+          "lastname": "Doe",
+          "email": "jkdlsfj@kdsf.com",
+          "phone": "+1 (555) 222-1111",
+          "resume": "https://www.linkedin.com/in/john-doe",
+          "cover_letter": "https://www.linkedin.com/in/john-doe",
+          "date_applied": "2023-06-20 10:30:00"
+        }
+      ]
+    },
+    {
+      "job_id": "job_2345",
+      "title": "Senior Software Engineer",
+      "description": "Develop new features for our platform",
+      "company": "Company ABC",
+      "location": "San Francisco, CA",
+      "salary": "1",
+      "currency": "BTC",
+      "date_posted": "2023-06-20 10:30:00",
+      "date_closed": "2023-07-20 10:30:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user1234",
+          "firstname": "John",
+          "lastname": "Doe",
+          "email": "fdsf@sdf.com",
+          "phone": "+1 (555) 222-1111",
+          "resume": "https://www.linkedin.com/in/john-doe",
+          "cover_letter": "https://www.linkedin.com/in/john-doe",
+          "date_applied": "2023-06-20 10:30:00"
+        }
+      ]
+    },
+    {
+      "job_id": "job_5678",
+      "title": "Blockchain Developer",
+      "description": "Design and implement blockchain solutions",
+      "company": "CryptoTech Solutions",
+      "location": "Remote",
+      "salary": "3.5",
+      "currency": "ETH",
+      "date_posted": "2023-07-05 12:00:00",
+      "date_closed": "2023-08-05 12:00:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user5678",
+          "firstname": "Jane",
+          "lastname": "Smith",
+          "email": "jane.smith@example.com",
+          "phone": "+1 (555) 987-6543",
+          "resume": "https://www.linkedin.com/in/jane-smith",
+          "cover_letter": "https://www.linkedin.com/in/jane-smith",
+          "date_applied": "2023-07-05 12:00:00"
+        },
+        {
+          "user_id": "user9876",
+          "firstname": "Bob",
+          "lastname": "Johnson",
+          "email": "bob.johnson@example.com",
+          "phone": "+1 (555) 444-3333",
+          "resume": "https://www.linkedin.com/in/bob-johnson",
+          "cover_letter": "https://www.linkedin.com/in/bob-johnson",
+          "date_applied": "2023-07-05 12:30:00"
+        }
+      ]
+    },
+    {
+      "job_id": "job_9876",
+      "title": "Cryptocurrency Analyst",
+      "description": "Research and analyze trends in the cryptocurrency market",
+      "company": "Digital Investment Group",
+      "location": "Singapore",
+      "salary": "8000",
+      "currency": "USDT",
+      "date_posted": "2023-07-05 09:30:00",
+      "date_closed": "2023-08-05 09:30:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user1234",
+          "firstname": "John",
+          "lastname": "Doe",
+          "email": "johndoe@example.com",
+          "phone": "+1 (555) 123-4567",
+          "resume": "https://www.linkedin.com/in/john-doe",
+          "cover_letter": "https://www.linkedin.com/in/john-doe",
+          "date_applied": "2023-07-05 09:30:00"
+        },
+        {
+          "user_id": "user5678",
+          "firstname": "Jane",
+          "lastname": "Smith",
+          "email": "jane.smith@example.com",
+          "phone": "+1 (555) 987-6543",
+          "resume": "https://www.linkedin.com/in/jane-smith",
+          "cover_letter": "https://www.linkedin.com/in/jane-smith",
+          "date_applied": "2023-07-05 10:00:00"
+        },
+        {
+          "user_id": "user9876",
+          "firstname": "Bob",
+          "lastname": "Johnson",
+          "email": "bob.johnson@example.com",
+          "phone": "+1 (555) 444-3333",
+          "resume": "https://www.linkedin.com/in/bob-johnson",
+          "cover_letter": "https://www.linkedin.com/in/bob-johnson",
+          "date_applied": "2023-07-05 11:15:00"
+        }
+      ]
+    },
+    {
+      "job_id": "job_2345",
+      "title": "Crypto Marketing Specialist",
+      "description": "Develop and execute marketing strategies for crypto projects",
+      "company": "Blockchain Marketing Agency",
+      "location": "London, UK",
+      "salary": "0.8",
+      "currency": "BTC",
+      "date_posted": "2023-07-06 14:00:00",
+      "date_closed": "2023-08-06 14:00:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user9876",
+          "firstname": "Bob",
+          "lastname": "Johnson",
+          "email": "bob.johnson@example.com",
+          "phone": "+1 (555) 444-3333",
+          "resume": "https://www.linkedin.com/in/bob-johnson",
+          "cover_letter": "https://www.linkedin.com/in/bob-johnson",
+          "date_applied": "2023-07-06 14:30:00"
+        },
+        {
+          "user_id": "user1234",
+          "firstname": "John",
+          "lastname": "Doe",
+          "email": "john.doe@example.com",
+          "phone": "+1 (555) 123-4567",
+          "resume": "https://www.linkedin.com/in/john-doe",
+          "cover_letter": "https://www.linkedin.com/in/john-doe",
+          "date_applied": "2023-07-06 15:00:00"
+        }
+      ]
+    },
+    {
+      "job_id": "job_3456",
+      "title": "Cryptocurrency Analyst",
+      "description": "Monitor market trends and provide analysis for crypto investments",
+      "company": "Crypto Research Institute",
+      "location": "Zurich, Switzerland",
+      "salary": "9000",
+      "currency": "USDC",
+      "date_posted": "2023-07-07 11:30:00",
+      "date_closed": "2023-08-07 11:30:00",
+      "status": "Open",
+      "applicants": [
+        {
+          "user_id": "user5678",
+          "firstname": "Jane",
+          "lastname": "Smith",
+          "email": "jane.smith@example.com",
+          "phone": "+1 (555) 987-6543",
+          "resume": "https://www.linkedin.com/in/jane-smith",
+          "cover_letter": "https://www.linkedin.com/in/jane-smith",
+          "date_applied": "2023-07-07 12:00:00"
+        },
+        {
+          "user_id": "user1234",
+          "firstname": "John",
+          "lastname": "Doe",
+          "email": "john.doe@example.com",
+          "phone": "+1 (555) 123-4567",
+          "resume": "https://www.linkedin.com/in/john-doe",
+          "cover_letter": "https://www.linkedin.com/in/john-doe",
+          "date_applied": "2023-07-07 12:30:00"
+        },
+        {
+          "user_id": "user9876",
+          "firstname": "Bob",
+          "lastname": "Johnson",
+          "email": "bob.johnson@example.com",
+          "phone": "+1 (555) 444-3333",
+          "resume": "https://www.linkedin.com/in/bob-johnson",
+          "cover_letter": "https://www.linkedin.com/in/bob-johnson",
+          "date_applied": "2023-07-07 13:00:00"
+        }
+      ]
+    }
   ]
 }
