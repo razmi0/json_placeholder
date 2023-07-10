@@ -1,12 +1,12 @@
-console.log("/**************************************/");
-console.log("/** Json Server Test | index.test.js **/");
-console.log("/**************************************/\n");
+console.log("\n/** Json Server Test | index.test.js **/\n");
 
 const fetchData = async () => {
   try {
     const urls = [
       "http://localhost:4444/pokemons",
       "http://localhost:4444/counts",
+      "http://localhost:4444/users",
+      "http://localhost:4444/jobs",
     ];
     const responses = await Promise.all(
       urls.map(async (url) => {
@@ -30,8 +30,9 @@ const fetchData = async () => {
     });
     console.log("All tests passed! on : ");
     console.table(urls);
+    console.log("\n/** Data ready to be used !! **/\n");
   } catch (error) {
-    console.log(error);
+    console.log(error + "\n");
   }
 };
 
