@@ -18,6 +18,7 @@ const fetchData = async () => {
         }
         try {
           const data = await response.json();
+
           return { url, data };
         } catch (error) {
           throw new Error(`Error parsing JSON response from ${url}: ${error}`);
